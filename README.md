@@ -1,4 +1,4 @@
-# Terraform AWS Seed
+# Terraform AWS VPC and Cloudfront Template
 
 Terraform AWS Infrastructure
 
@@ -7,3 +7,8 @@ Terraform AWS Infrastructure
 ```
 terraform plan -var-file=prod.tfvars
 ```
+
+```
+terraform apply -var-file=prod.tfvars
+```
+
