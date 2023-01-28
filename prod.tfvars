@@ -1,7 +1,7 @@
 env         = "environment"
 product     = "product-name"
 aws_region  = "ap-south-1"
-aws_profile = "idx"
+aws_profile = "aws-cli-profile-name"
 
 # VPC
 vpc_cidr_block         = "10.0.0.0/16"
@@ -14,7 +14,7 @@ bastion_cidr_block                = "10.0.25.0/24"
 bastion_subnet_availability_zone  = "ap-south-1a"
 bastion_ami                       = "ami-0851b76e8b1bce90b"
 bastion_instance_type             = "t2.micro"
-bastion_key_pair_name             = "arena9-app-instance"
+bastion_key_pair_name             = "key-pair-name"
 bastion_disable_api_termination   = false
 bastion_ebs_encrypted             = true
 bastion_ebs_volume_size           = 30
